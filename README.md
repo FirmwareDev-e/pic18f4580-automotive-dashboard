@@ -38,4 +38,15 @@ This project highlights **CAN communication, ADC interfacing, keypad scanning, a
 
 ---
 
-## 📂 Project Structure
+## 📊 System Workflow
+1. **ECU1** → Sends Speed & Gear via CAN  
+2. **ECU2** → Sends RPM & Indicators via CAN  
+3. **ECU3** → Receives all data → Displays on LCD  
+
+---
+
+## 🚀 Getting Started
+1. Clone this repo:  
+   ```bash
+   git clone https://github.com/FirmwareDev-e/pic18f4580-automotive-dashboard.git
+
